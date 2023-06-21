@@ -1,0 +1,16 @@
+Host github.com
+	HostName github-self
+	User WorHyako
+	IdentityFile ~/.ssh/MacBook-wor
+	IdentitiesOnly yes
+	PreferredAuthentications publickey
+	PasswordAuthentication no
+
+Host foo.gitlab.com
+	HostName gitlab-work
+	Port 51100
+	User BestWorkerEver
+	IdentityFile ~/.ssh/MacBook-wor
+	IdentitiesOnly yes
+	PreferredAuthentications publickey
+	PasswordAuthentication no
